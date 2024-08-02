@@ -1,0 +1,137 @@
+ul,
+li,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+header {
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+}
+
+.common-green {
+	color: #077c6c;
+}
+
+h2 {
+	margin: 1rem;
+	font-size: 3rem !important;
+}
+
+.jumbotron,
+.volunteer {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.book a {
+	font-size: 1.4em;
+	color: #fff;
+
+}
+
+.img-intro {
+	background-color: #077c6c;
+	padding: 2rem;
+}
+
+.img-intro p {
+	padding: 1.2rem 2rem;
+	font-size: 1.3rem;
+}
+
+.img-intro h1,
+.img-intro p {
+	color: #fff;
+	padding-top: 20px;
+}
+
+.rotate {
+	animation-name: rotateme;
+	animation-duration: 24s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	width: 20rem;
+	border-radius: 50%;
+}
+
+@keyframes rotateme {
+	from {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+.btn-wrap {
+	text-align: center;
+	margin: 3.0rem 0;
+}
+
+.progress {
+	margin: 1.5rem 0;
+	height: 1.5rem !important;
+}
+
+.skill {
+	width: 80%;
+	margin: 2.5rem auto;
+}
+
+.experience {
+	background-color: #f4eee6;
+	border-radius: 11%;
+	width: 80%;
+	margin: 2rem auto;
+	padding: 4.5rem;
+}
+
+
+.card {
+	border-radius: 12px;
+}
+
+footer {
+	font-size: 1rem;
+	box-sizing: border-box;
+	padding: 2rem;
+	background-color: #5b7081;
+	color: #eaeaea;
+}
+
+.cr {
+	margin: 10px 0;
+	font-weight: 600;
+}
+
+.badge-title {
+	width: 100%;
+	text-align: center;
+	color: #d1b252;
+}
+
+.badge-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 3rem;
+	margin: 10px auto;
+	background-color: #e2d8d0;
+}
+
+.major{
+	text-align: center;
+	font-size: 1.4rem;
+}
